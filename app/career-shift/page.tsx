@@ -18,4 +18,8 @@ export default function CareerShift() {
 
       <section className={styles.section}>
         <h2 className={styles.sectionTitle}>Current Projects</h2>
-        <p className={styles.paragraph}>This section will be updated with information about my ongoing projects and collabor
+        <p className={styles.paragraph}>This section will be updated with information about my ongoing projects and collaborations in the housing development field.</p>
+      </section>
+    </div>
+  );
+}
