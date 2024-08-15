@@ -9,23 +9,23 @@ export default function Profile() {
 
       <section className={styles.section}>
         <h2 className={styles.sectionTitle}>Introduction</h2>
-        <Image src="/api/placeholder/800/400" alt="Placeholder for profile header" width={800} height={400} className={styles.image} />
+        <Image src="http://localhost:3000/api/placeholder/800/400" alt="Placeholder for profile header" width={800} height={400} className={styles.image} />
         <ul className={styles.list}>
           <li className={styles.listItem}>I'm a <strong className={styles.highlight}>software engineer</strong>, a <strong className={styles.highlight}>mover,</strong> and a <strong className={styles.highlight}>human</strong> who grew up in Northern California. I moved to Berkeley to study <strong className={styles.highlight}>art</strong> at UC Berkeley, and have spent most of my post-college life living in the <strong className={styles.highlight}>East Bay.</strong></li>
-          <li className={styles.listItem}>I want to become a <strong className={styles.highlight}>housing developer</strong> because I have come to see that not only is the housing crisis one of the primary drivers of challenges faced by Californians, but a <strong className={styles.highlight}>well-designed built environment</strong> including housing is key to providing people with the basics of a good life: connection, activity, health and prosperity.</li>
+          <li className={styles.listItem}>I want to become a <strong className={styles.highlight}>housing developer</strong> because I believe a lack of housing is a primary driver of challenges faced by Californians, and I believe that <strong className={styles.highlight}>well-designed built environments</strong> are key to providing people with the basics of a good life: connection, activity, health and prosperity.</li>
           <li className={styles.listItem}>This website exists to help me tell the story of why and how I'm charting a course from being a software engineer to being a housing developer.</li>
         </ul>
       </section>
 
       <section className={styles.section}>
         <h2 className={styles.sectionTitle}>Early Background</h2>
-        <Image src="/api/placeholder/400/300" alt="Placeholder for early background" width={400} height={300} className={styles.sectionImage} />
+        <Image src="http://localhost:3000/api/placeholder/400/300" alt="Placeholder for early background" width={400} height={300} className={styles.sectionImage} />
         <ul className={styles.list}>
-          <li className={styles.listItem}>I began learning to program in elementary school. My interest was supercharged when I discovered I could publish websites that could connect me to people all around the world.</li>
+          <li className={styles.listItem}>I began learning to program in elementary school. My interest was supercharged when I discovered that I could publish websites and be connected to people all around the world.</li>
           <li className={styles.listItem}>In high school, I applied these abilities to a web development company called Epoch Media. I made websites for local businesses, artists, and merchants. I was even featured on a nationwide news broadcast about teen business owners!</li>
-          <li className={styles.listItem}>Housing / built environment: Thomas Creek Ranch. Pocket Canyon.</li>
-          <li className={styles.listItem}>In college, I pivoted to art for several years. Many people would consider this a detour, but I find that creating art and creating software actually have a lot in common. Bring the two together, and you can create wild experiences!</li>
-          <li className={styles.listItem}>Housing / built environment: Student cooperatives.</li>
+          <li className={styles.listItem}>Also during middle and high school, I made friends with people who lived in a housing development that I later came to understand was a form of <strong className={styles.highlight}>cohousing</strong>. The shared resources made this community a defacto hub - including providing gradual autonomy as we grew from children into teenagers.</li>
+          <li className={styles.listItem}>In college, I pivoted to art for several years. Many people would consider this a detour, but I find that creating art and creating software actually have a lot in common. The interesting stuff happens in the zone between the practical, the aesthetic, and the exploratory!</li>
+          <li className={styles.listItem}>During college, I lived in the Berkeley Student Cooperatives. I came to appreciate the value of sharing resources and of intentionally structured housing.</li>
         </ul>
       </section>
 
