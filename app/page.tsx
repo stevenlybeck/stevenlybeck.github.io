@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
+import PlaceholderImage from '../components/PlaceholderImage';
 import styles from './styles/shared.module.css';
 
 export default function Home() {
@@ -15,7 +15,7 @@ export default function Home() {
       
       <section className={styles.section}>
         <h2 className={styles.sectionTitle}>Making It Home Podcast</h2>
-        <Image src="/api/placeholder/800/400" alt="Making It Home Podcast Cover" width={800} height={400} className={styles.image} />
+        <PlaceholderImage width={800} height={400} alt="Making It Home Podcast Cover" />
         <p className={styles.paragraph}>Explore my new podcast where I interview people about their past homes, discussing built environment, community, and personal memories. Join me in uncovering the stories that make a house a home.</p>
         <a href="/podcast" className={styles.button}>Learn More About the Podcast</a>
       </section>

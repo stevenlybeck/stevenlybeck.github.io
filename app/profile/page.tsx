@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
+import PlaceholderImage from '@/components/PlaceholderImage';
 import styles from '../styles/shared.module.css';
 
 export default function Profile() {
@@ -9,7 +9,7 @@ export default function Profile() {
 
       <section className={styles.section}>
         <h2 className={styles.sectionTitle}>Introduction</h2>
-        <Image src="http://localhost:3000/api/placeholder/800/400" alt="Placeholder for profile header" width={800} height={400} className={styles.image} />
+        <PlaceholderImage alt="Placeholder for profile header" width={800} height={400} />
         <ul className={styles.list}>
           <li className={styles.listItem}>I'm a <strong className={styles.highlight}>software engineer</strong>, a <strong className={styles.highlight}>mover,</strong> and a <strong className={styles.highlight}>human</strong> who grew up in Northern California. I moved to Berkeley to study <strong className={styles.highlight}>art</strong> at UC Berkeley, and have spent most of my post-college life living in the <strong className={styles.highlight}>East Bay.</strong></li>
           <li className={styles.listItem}>I want to become a <strong className={styles.highlight}>housing developer</strong> because I believe a lack of housing is a primary driver of challenges faced by Californians, and I believe that <strong className={styles.highlight}>well-designed built environments</strong> are key to providing people with the basics of a good life: connection, activity, health and prosperity.</li>
@@ -19,7 +19,7 @@ export default function Profile() {
 
       <section className={styles.section}>
         <h2 className={styles.sectionTitle}>Early Background</h2>
-        <Image src="http://localhost:3000/api/placeholder/400/300" alt="Placeholder for early background" width={400} height={300} className={styles.sectionImage} />
+        <PlaceholderImage alt="Placeholder for early background" width={400} height={300} />
         <ul className={styles.list}>
           <li className={styles.listItem}>I began learning to program in elementary school. My interest was supercharged when I discovered that I could publish websites and be connected to people all around the world.</li>
           <li className={styles.listItem}>In high school, I applied these abilities to a web development company called Epoch Media. I made websites for local businesses, artists, and merchants. I was even featured on a nationwide news broadcast about teen business owners!</li>
@@ -31,7 +31,7 @@ export default function Profile() {
 
       <section className={styles.section}>
         <h2 className={styles.sectionTitle}>Career in Software Engineering</h2>
-        <Image src="/api/placeholder/400/300" alt="Placeholder for software career" width={400} height={300} className={styles.sectionImage} />
+        <PlaceholderImage alt="Placeholder for software career" width={400} height={300} />
         <ul className={styles.list}>
           <li className={styles.listItem}>After college, I pivoted back to software engineering. The money was good, and student loans and housing are pricey.</li>
           <li className={styles.listItem}>I began a freelance career that exposed me to small businesses, game development companies, VC-funded startups, and eventually publicly traded companies.</li>
@@ -57,7 +57,7 @@ export default function Profile() {
 
       <section className={styles.section}>
         <h2 className={styles.sectionTitle}>Transition to Housing Development</h2>
-        <Image src="/api/placeholder/400/300" alt="Placeholder for transition" width={400} height={300} className={styles.sectionImage} />
+        <PlaceholderImage alt="Placeholder for transition" width={400} height={300} />
         <ul className={styles.list}>
           <li className={styles.listItem}>I've been meeting people from different sides of real estate development - investors, architects, design-build companies, developers, city planners, startup people - and learning everything I can from them!</li>
           <li className={styles.listItem}>The gaps for me are clear - I'm a software developer, and while I have executed a few small homeowner projects, I have a lot to learn when it comes to bringing together the parties involved in getting housing built from the ground up.</li>

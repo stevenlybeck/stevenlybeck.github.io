@@ -1,12 +1,12 @@
 import React from 'react';
-import Image from 'next/image';
+import PlaceholderImage from '@/components/PlaceholderImage';
 import styles from '../styles/shared.module.css';
 
 export default function Podcast() {
   return (
     <div className={styles.page}>
       <h1 className={styles.title}>Making It Home</h1>
-      <Image src="/api/placeholder/800/400" alt="Making It Home Podcast Cover" width={800} height={400} className={styles.image} />
+      <PlaceholderImage alt="Making It Home Podcast Cover" width={800} height={400} />
       
       <section className={styles.section}>
         <h2 className={styles.sectionTitle}>About the Podcast</h2>

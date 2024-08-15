@@ -1,12 +1,12 @@
-import { NextRequest } from 'next/server';
+import React from 'react';
 
-export async function GET(
-  request: NextRequest,
-  { params }: { params: { width: string; height: string } }
-) {
-  const width = parseInt(params.width, 10);
-  const height = parseInt(params.height, 10);
+interface PlaceholderImageProps {
+  width: number;
+  height: number;
+  alt: string;
+}
 
+const PlaceholderImage: React.FC<PlaceholderImageProps> = ({ width, height, alt }) => {
   const svg = `
     <svg width="${width}" height="${height}" xmlns="http://www.w3.org/2000/svg">
       <rect width="100%" height="100%" fill="#f0f0f0"/>
@@ -18,10 +18,10 @@ export async function GET(
     </svg>
   `;
 
-  return new Response(svg, {
-    headers: {
-      'Content-Type': 'image/svg+xml',
-      'Cache-Control': 'public, max-age=31536000, immutable',
-    },
-  });
-}
+  const encodedSVG = encodeURIComponent(svg);
+  const dataURI = `data:image/svg+xml,${encodedSVG}`;
+
+  return <img src={dataURI} width={width} height={height} alt={alt} style={{ maxWidth: '100%', height: 'auto' }} />;
+};
+
+export default PlaceholderImage;
