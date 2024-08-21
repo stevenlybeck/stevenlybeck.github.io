@@ -11,6 +11,7 @@ export default function Projects() {
         <h2 className={styles.sectionTitle}>3D Robot Arm Visualization</h2>
         <PlaceholderImage alt="Placeholder for Robot Arm Visualization" width={800} height={400} />
         <p className={styles.paragraph}>A 3D visualization of a robot arm to visualize data streaming into a management platform for fleets of robotics.</p>
+        <p className={styles.paragraph}>Client: Freedom Robotics</p>
       </section>
 
       <section className={styles.section}>
