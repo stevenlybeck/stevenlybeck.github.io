@@ -25,6 +25,7 @@ export default function Projects() {
         <h2 className={styles.sectionTitle}>NextJS-based UX Development Framework</h2>
         <PlaceholderImage alt="Placeholder for NextJS Framework" width={800} height={400} />
         <p className={styles.paragraph}>A NextJS-based framework supporting UX development for hundreds of engineers.</p>
+        <p className={styles.paragraph}>Job: Flexport</p>
       </section>
     </div>
   );
