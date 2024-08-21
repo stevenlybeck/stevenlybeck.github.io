@@ -18,6 +18,7 @@ export default function Projects() {
         <h2 className={styles.sectionTitle}>WebRTC Bridge for Robot Control</h2>
         <PlaceholderImage alt="Placeholder for WebRTC Bridge" width={800} height={400} />
         <p className={styles.paragraph}>A WebRTC bridge for direct control of mobile robots from a web browser.</p>
+        <p className={styles.paragraph}>Client: Freedom Robotics</p>
       </section>
 
       <section className={styles.section}>
